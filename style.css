@@ -1,0 +1,126 @@
+body{
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E8EBF3;
+}
+
+
+/* Scroll behaviour  */
+
+html {
+    scroll-behavior: smooth;
+  }
+
+/* Navbar */
+
+.navbar{
+    background-color: #09233A !important;
+}
+
+
+.uk-offcanvas-bar{
+    background-color: #09233A !important;   
+}
+
+
+.uk-navbar-nav>li>a{
+    min-height: 30px;
+    color: white;
+}
+
+
+/* Icons */
+
+.uk-icon-link{
+    color: white !important;
+    background-color: #307D90 !important;
+    border-radius: 50%;
+}
+
+
+
+/* custom background  */
+.custom-background{
+    background: url(./images/man_banner/banner_image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* Card background images */
+.card-background{
+    background:linear-gradient(0deg, rgba(6, 0, 4, 0.494), rgba(0, 0, 0, 0.482)), url(./images/cards_images/card-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+/* company logoes  */
+.company_logos-1{
+    background: url(./images/company_logos/aprassa.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.company_logos-2{
+    background: url(./images/company_logos/general_medical_council.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.company_logos-3{
+    background: url(./images/company_logos/hpcsa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.company_logos-4{
+    background: url(./images/company_logos/sorsaa.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+/* form submit button  */
+.submit-button{
+    background-color: #307D90;
+    color: white;
+}
+
+
+.custom-background p{
+    font-size: 14px;
+}
+
+
+/* CSS for video rounded card  */
+.video-card{
+    border-radius: 40px 0px;
+    box-shadow: none;
+    height: 350px;
+}
+
+/* form background image  */
+.form-background{
+    background:linear-gradient(0deg, #ffffffbd, rgba(255, 255, 255, 0.767)), url(./images/bottom_section/watersea.jpg);
+}
+
+
+/* ===================== Footer color =====================*/
+.footer{
+    background-color: #3A3A3C ;
+}
+
+
+.footer a{
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.uk-flex-around{
+    justify-content: space-evenly;
+}
